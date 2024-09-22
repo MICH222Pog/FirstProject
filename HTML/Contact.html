@@ -1,0 +1,148 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Homepage.css" />
+    <link rel="stylesheet" href="../CSS/Contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src = "../JS/function.js"></script>
+    <script defer src = "../JS/contact.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+    
+        <div class="logo">ERamen</div>
+    
+        
+        <ul class="nav-links">
+    
+          
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    
+          
+          <div class="menu">
+    
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+    
+            <li class="services">
+              <a href="Promotion.html">Promotion</a>
+    
+            </li>
+    
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+
+      <div class="Header">
+        <h1>Contact Form</h1>
+      </div>
+    
+
+
+      <div class="container">
+        <form action="" method="post" id="form" class="form" >
+
+          <div class="row">
+            <div class="col1">
+              <label for="username">Name</label>
+            </div>
+            <div class="col2">
+              <input type="text" id="username" name="username" placeholder="Full Name">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col1">
+              <label for="email">Email</label>
+            </div>
+            <div class="col2">
+              <input type="text" id="email" name="email" placeholder="Email Address">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col1">
+              <label for="number">Phone Number</label>
+            </div>
+            <div class="col2">
+              <input type="text" id="number" name="number" placeholder="Phone Number">
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col1">
+              <label for="ramen">Preferences</label>
+            </div>
+            <div class="col2">
+              
+        <input type="radio" name="radio" id="dry">
+        <label for="dry">Dry Ramen</label>
+        
+        <input type="radio" name="radio" id="ramen">
+        <label for="ramen">Ramen</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col1">
+            </div>
+            <div class="col2">
+              <input class="checkbox" type="checkbox" name="agreement" id="agreement"> User must agree to receive newsletter
+            </div>
+          </div>
+          
+          
+
+
+            
+
+          <div class="row">
+           
+            <button type="button" onclick="checkInput()" class="submitbtn">Submit</button>
+          </div>
+        </form>
+      </div>
+
+     
+
+
+      <footer>
+        <div class="footer-content">
+            <h3>ERamen</h3>
+            <p>ERamen, one of the oldest ramen shops in the world, has partnered with two popular e-wallet services in Indonesia, OVO and GoPay, to enhance the convenience and payment options for its customers.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">ERamen</a>  </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="Homepage.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="Promotion.html">Promotion</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

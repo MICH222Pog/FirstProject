@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+  font-family: sans-serif;
+}
+footer{
+  background-color: black;
+  position: absolute;
+  
+ 
+  height: auto;
+  width: 100%;
+  top: 207%;
+
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+
+
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100%;
+  padding: 20px;
+padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p{
+float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a{
+color:#44bae8;
+font-size: 16px;
+text-decoration: none;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-menu{
+float: right;
+
+}
+.footer-menu ul{
+display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+color: #cfd2d6;
+text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: #27bcda;
+}
+
+@media (max-width:768px) {
+.footer-menu ul{
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+}
+
+  .column {
+   margin-top: 16.7vw;
+    float: left;
+    width: 50%;
+    padding: 5px;
+    background-color: #D3D3D3;
+    height: 35.25vw;
+  }
+  
+  
+  .history::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column h1{
+    font-size: 2vw;
+    margin-top: 1vw;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .column p{
+    font-size: 1.6vw;
+    margin-top: 1vw;
+    color: black;
+    font-family: Arial;
+  }
+
+  .column img{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  margin-right: auto;
+  
+  margin-top: 15%;
+   
+  height: auto;
+  max-height: 250px;
+  width: 100%;
+  max-width: 500px;
+  /* margin-top: 15%;
+  margin-left: 10%; */
+
+  }
+
+
+
+  .column1 {
+    
+    float: left;
+    width: 50%;
+    padding: 5px;
+    background-color:#E4F6F8;
+    height: 55.25vw;
+  }
+  
+  
+  .Visi::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column1 h1{
+    font-size: 2vw;
+    margin-top: 1vw;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .column1 p{
+    font-size: 1.6vw;
+    margin-top: 1vw;
+    color: black;
+    font-family: Arial;
+  }
+
+  .column1 img{
+
+    display: flex;
+    flex-direction: column;
+   
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+  margin-right: auto;
+  
+ 
+  margin-top: 10%;
+  
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .column {
+      width: 100%;
+      /* height: 50vw; */
+      margin-top: 0;
+    }
+    .column img{
+      height: 100%;
+    }
+
+      footer{
+      top: 133%;
+    }
+    .column1{
+      margin-top: 0;
+    } 
+    .column1 img{
+      height: 80%;
+    }
+  }
+  
+  .Header{
+    width: 100%;
+    background-image: url(../foto/pngtree-japanese-style-ramen-literary-minimalist-gray-banner-image_178114.jpg);
+    height: 17vw;
+    top: 9.3%;
+    
+    position: absolute;
+    display: flex;
+    opacity: 0.99;
+  }
+  
+  .Header h1{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: radial-gradient(circle, black, #34568B);
+    margin-top: 5%;
+    font-family: Georgia;
+    font-size: 75px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
